@@ -8,7 +8,7 @@ An annotated digital edition of the opening of *Mistborn: The Final Empire* by B
 
 | File | Purpose |
 | --- | --- |
-| `Mistborn.xml` | The TEI-encoded text: numbered paragraphs, notes, tagged names/titles/places, and links to the Coppermind wiki. |
+| `Mistborn.xml` | The TEI-encoded text: numbered paragraphs, notes, tagged names, titles, places, and organizations, and links to the Coppermind wiki. |
 | `index.html` | The edition page. |
 | `assets/edition.js` | Loads `Mistborn.xml` in the browser and turns the TEI markup into the reading view. |
 | `assets/style.css` | Page styles, including dark mode and mobile layout. |
@@ -16,7 +16,7 @@ An annotated digital edition of the opening of *Mistborn: The Final Empire* by B
 ## Features
 
 - Footnotes you can click to read in place, plus a full list at the end
-- Highlights for names, titles, and places that you can switch on and off
+- Highlights for names, titles, places, and organizations that you can switch on and off
 - An index of tagged terms that jumps to each place a term appears
 - A link for every paragraph (for example `#p-26`)
 - A list of all the external links in the text
@@ -33,7 +33,11 @@ python3 -m http.server
 ## Encoding conventions
 
 - `<p n="N">`: paragraph number N
-- `<seg ana="name|title|place">`: tagged term
+- `<persName>`: a person's name (`<rs type="person">` when the person is referred to without a name)
+- `<roleName>`: a title or rank, such as "Lord" or "obligator"
+- `<placeName>`: a place
+- `<orgName>`: an organization
+- `key="…"` on any of these: groups different forms of a term in the index (for example `key="obligator"` on "obligators")
 - `<note place="bottom">`: editorial note
 - `<ref target="URL">`: external link
 

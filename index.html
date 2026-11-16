@@ -30,6 +30,7 @@
           <label class="toggle"><input type="checkbox" value="name" checked> <span class="swatch ent-name">Names</span></label>
           <label class="toggle"><input type="checkbox" value="title" checked> <span class="swatch ent-title">Titles</span></label>
           <label class="toggle"><input type="checkbox" value="place" checked> <span class="swatch ent-place">Places</span></label>
+          <label class="toggle"><input type="checkbox" value="org" checked> <span class="swatch ent-org">Organizations</span></label>
         </div>
         <label class="toggle"><input type="checkbox" id="toggle-pnum" checked> Paragraph numbers</label>
       </section>
@@ -70,8 +71,10 @@
         <ul>
           <li><code>&lt;p n="…"&gt;</code> becomes a numbered paragraph you can link to
           (for example <a href="#p-26">#p-26</a>).</li>
-          <li><code>&lt;seg ana="name|title|place"&gt;</code> becomes a highlighted term, collected
-          in the index.</li>
+          <li><code>&lt;persName&gt;</code>, <code>&lt;roleName&gt;</code>, <code>&lt;placeName&gt;</code>,
+          <code>&lt;orgName&gt;</code> and <code>&lt;rs&gt;</code> become highlighted terms, collected in the
+          index. A <code>key</code> attribute groups different forms of the same term, such as
+          “obligators” under “obligator”.</li>
           <li><code>&lt;note&gt;</code> becomes a numbered footnote. Click its number to read it in place.</li>
           <li><code>&lt;ref target="…"&gt;</code> becomes a link to the
           <a href="https://coppermind.net/">Coppermind</a> wiki.</li>

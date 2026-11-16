@@ -23,132 +23,132 @@
    <text>
       <body>
          <p n="1">Ash fell from the sky.</p>
-         <p n="2"><seg ana="title">Lord</seg>
-            <seg ana="name">Tresting</seg> frowned, glancing up at the ruddy, mid-day sky as his
-            servants scuttled forward, opening a parasol over Tresting and his distinguished guest.
+         <p n="2"><roleName>Lord</roleName>
+            <persName>Tresting</persName> frowned, glancing up at the ruddy, mid-day sky as his
+            servants scuttled forward, opening a parasol over <persName>Tresting</persName> and his distinguished guest.
                Ashfalls<note place="bottom">This is the event when ash falls from the sky.</note>
-            weren’t that uncommon in the <seg ana="place">Final Empire</seg><note place="bottom"
-               >Empire ruled by the Lord Ruler.</note>, but Tresting had hoped to avoid getting soot
+            weren’t that uncommon in the <placeName>Final Empire</placeName><note place="bottom"
+               >Empire ruled by the Lord Ruler.</note>, but <persName>Tresting</persName> had hoped to avoid getting soot
             stains on his fine new suit coat and red vest, which had just arrived via canal boat
-            from <seg ana="place">Luthadel</seg><note place="bottom">Capital of the Final
+            from <placeName>Luthadel</placeName><note place="bottom">Capital of the Final
                Empire</note> itself. Fortunately, there wasn’t much wind — the parasol would likely
             be effective.</p>
-         <p n="3">Tresting stood with his guest on a small hilltop patio which overlooked the
+         <p n="3"><persName>Tresting</persName> stood with his guest on a small hilltop patio which overlooked the
             fields. Hundreds of people in brown smocks worked in the falling ash, caring for the
             crops. There was a sluggishness to their efforts—but, of course, that was the way of the
-               skaa<note place="bottom">name for slaves/peasents in the Final Empire</note>. The
-            peasants were an indolent, unproductive lot. The didn’t complain, of course — they knew
+               skaa<note place="bottom">name for slaves/peasants in the Final Empire</note>. The
+            peasants were an indolent, unproductive lot. They didn’t complain, of course — they knew
             better than that. Instead, they simply worked with bowed heads, moving about their work
             with quiet apathy. The passing whip of a taskmaster would force them into dedicated
             motion for a few moments, but as soon as the taskmaster passed, they would return to
             their languor.</p>
-         <p n="4">Tresting turned to the man standing beside him on the hill. “One would think,”
-            Tresting noted, “that a thousand years of working in fields would have bred them to be a
+         <p n="4"><persName>Tresting</persName> turned to the man standing beside him on the hill. “One would think,”
+            <persName>Tresting</persName> noted, “that a thousand years of working in fields would have bred them to be a
             little more effective at it.”</p>
-         <p n="5">The <seg ana="title"><ref
+         <p n="5">The <roleName key="obligator"><ref
                   target="https://coppermind.net/wiki/Steel_Ministry#Obligators"
-               >obligator</ref></seg><note place="bottom">law enforcers of the Lord Ruler.</note>
+               >obligator</ref></roleName><note place="bottom">law enforcers of the Lord Ruler.</note>
             turned, raising an eyebrow — the motion done as if to highlight his most distinctive
             feature, the intricate tattoos that laced the skin around his eyes. The tattoos were
             enormous, reaching all the way across his brow and up the sides of his nose. This was a
-            full <seg ana="title">prelan</seg> — a very important obligator indeed. Tresting had his
-            own, personal obligators back at the manor, but they were only minor <seg ana="title"
-               >functionaries</seg>, with barely a few marks around their eyes. This man had arrived
-            from Luthadel with the same canal boat that had brought Tresting’s new suit.</p>
-         <p n="6">“You should see city skaa, Tresting,” the obligator said, turning back to watch
-            the skaa workers. “These are actually quite diligent, compared to those inside Luthadel.
+            full <roleName>prelan</roleName> — a very important <roleName key="obligator">obligator</roleName> indeed. <persName>Tresting</persName> had his
+            own, personal <roleName key="obligator">obligators</roleName> back at the manor, but they were only minor <roleName key="functionary"
+               >functionaries</roleName>, with barely a few marks around their eyes. This man had arrived
+            from <placeName>Luthadel</placeName> with the same canal boat that had brought <persName>Tresting</persName>’s new suit.</p>
+         <p n="6">“You should see city skaa, <persName>Tresting</persName>,” the <roleName key="obligator">obligator</roleName> said, turning back to watch
+            the skaa workers. “These are actually quite diligent, compared to those inside <placeName>Luthadel</placeName>.
             You have more . . . direct control over your skaa here. How many would you say you lose
             a month?”</p>
-         <p n="7">“Oh, a half-dozen or so,” Tresting said. “Some to beatings, some to
+         <p n="7">“Oh, a half-dozen or so,” <persName>Tresting</persName> said. “Some to beatings, some to
             exhaustion.”</p>
          <p n="8">“Runaways?”</p>
-         <p n="9">“Never!” Tresting said. “When I first inherited this land from my title, I had a
+         <p n="9">“Never!” <persName>Tresting</persName> said. “When I first inherited this land from my title, I had a
             few runaways — but I executed their families. The rest quickly lost heart. I’ve never
             understood men who have trouble with their skaa — I find the creatures easy to control,
             if you show a properly firm hand.”</p>
-         <p n="10">The obligator nodded, standing quietly in his gray robes. He seemed pleased —
-            which was a good thing. The skaa weren’t actually Tresting’s property. Like all skaa,
-            they belonged to the <ref target="https://coppermind.net/wiki/Rashek">Lord Ruler</ref> —
-            Tresting only leased the workers from his God<note place="bottom">This refers to the
+         <p n="10">The <roleName key="obligator">obligator</roleName> nodded, standing quietly in his gray robes. He seemed pleased —
+            which was a good thing. The skaa weren’t actually <persName>Tresting</persName>’s property. Like all skaa,
+            they belonged to the <persName key="Lord Ruler"><ref target="https://coppermind.net/wiki/Rashek">Lord Ruler</ref></persName> —
+            <persName>Tresting</persName> only leased the workers from his God<note place="bottom">This refers to the
                Lord Ruler.</note>, much in the same way he paid for the services of His
-            obligators.</p>
-         <p n="11">The obligator looked down, checking his pocket watch, then glanced up at the sun.
+            <roleName key="obligator">obligators</roleName>.</p>
+         <p n="11">The <roleName key="obligator">obligator</roleName> looked down, checking his pocket watch, then glanced up at the sun.
             Despite the ashfall, the sun was bright this day, shining a brilliant crimson red behind
-            the smoky blackness of the upper sky. Tresting removed a handkerchief and wiped his
+            the smoky blackness of the upper sky. <persName>Tresting</persName> removed a handkerchief and wiped his
             brow, thankful for the parasol’s shade against the mid-day heat.</p>
-         <p n="12">“Very well, Tresting,” the obligator said. “I will carry your proposal to Lord
-               <seg ana="name"><ref target="https://coppermind.net/wiki/House_Venture"
-               >Venture</ref></seg><note place="bottom">Straff Venture, a prominent political figure
+         <p n="12">“Very well, <persName>Tresting</persName>,” the <roleName key="obligator">obligator</roleName> said. “I will carry your proposal to <roleName>Lord</roleName>
+               <persName key="Straff Venture"><ref target="https://coppermind.net/wiki/House_Venture"
+               >Venture</ref></persName><note place="bottom">Straff Venture, a prominent political figure
                in Luthadel</note>, as requested. He will have a favorable report from me on your
             operations here.”</p>
-         <p n="13">Tresting held in a sigh of relief. An obligator was required to witness any
-            contract or business deal between noblemen. True, even a lowly obligator like the ones
-            Tresting employed could serve as such a witness — but it meant so much more to impress
-            Straff Venture’s own obligator.</p>
-         <p n="14">The obligator turned toward him. “I will leave back down the canal this
+         <p n="13"><persName>Tresting</persName> held in a sigh of relief. An <roleName key="obligator">obligator</roleName> was required to witness any
+            contract or business deal between noblemen. True, even a lowly <roleName key="obligator">obligator</roleName> like the ones
+            <persName>Tresting</persName> employed could serve as such a witness — but it meant so much more to impress
+            <persName key="Straff Venture">Straff Venture</persName>’s own <roleName key="obligator">obligator</roleName>.</p>
+         <p n="14">The <roleName key="obligator">obligator</roleName> turned toward him. “I will leave back down the canal this
             afternoon.”</p>
-         <p n="15">“So soon?” Tresting asked. “Wouldn’t you care to stay for supper?”</p>
-         <p n="16">“No,” the obligator replied. “Though there is another matter I wish to discuss
-            with you. I came not only at the behest of Lord Venture, but to . . . look in on some
-            matters for the <ref
+         <p n="15">“So soon?” <persName>Tresting</persName> asked. “Wouldn’t you care to stay for supper?”</p>
+         <p n="16">“No,” the <roleName key="obligator">obligator</roleName> replied. “Though there is another matter I wish to discuss
+            with you. I came not only at the behest of <roleName>Lord</roleName> <persName key="Straff Venture">Venture</persName>, but to . . . look in on some
+            matters for the <orgName key="Canton of Inquisition"><ref
                target="https://coppermind.net/wiki/Steel_Ministry#Canton_of_Inquisition">Canton of
-               Inquisition</ref><note place="bottom">Secret law enforcment of the Lord Ruler ran by
-               Steel inquisitors</note>. Rumors say that you like to dally with your skaa
+               Inquisition</ref></orgName><note place="bottom">Secret law enforcement of the Lord Ruler, run by
+               Steel Inquisitors</note>. Rumors say that you like to dally with your skaa
             women.”</p>
-         <p n="17">Tresting felt a chill.</p>
-         <p n="18">The obligator smiled — he likely meant it to be disarming, but Tresting only
-            found it eerie. “Don’t worry yourself, Tresting,” the obligator said. “If there had been
-            any real worries about your actions, a <seg ana="title">Steel Inquisitor</seg> would
+         <p n="17"><persName>Tresting</persName> felt a chill.</p>
+         <p n="18">The <roleName key="obligator">obligator</roleName> smiled — he likely meant it to be disarming, but <persName>Tresting</persName> only
+            found it eerie. “Don’t worry yourself, <persName>Tresting</persName>,” the <roleName key="obligator">obligator</roleName> said. “If there had been
+            any real worries about your actions, a <roleName key="Steel Inquisitor">Steel Inquisitor</roleName> would
             have been sent here in my place.”</p>
-         <p n="19">Tresting nodded slowly. Inquisitor. He’d never seen one of the inhuman creatures,
+         <p n="19"><persName>Tresting</persName> nodded slowly. <roleName key="Steel Inquisitor">Inquisitor</roleName>. He’d never seen one of the inhuman creatures,
             but he had heard . . . stories.</p>
-         <p n="20">“I have been satisfied regarding your actions with the skaa women,” the obligator
+         <p n="20">“I have been satisfied regarding your actions with the skaa women,” the <roleName key="obligator">obligator</roleName>
             said, looking back over the fields. “What I’ve seen and heard here indicates that you
             always clean up your messes. A man such as yourself — efficient, productive — could go
-            far in Luthadel. A few more years of work, some inspired mercantile deals, and who
+            far in <placeName>Luthadel</placeName>. A few more years of work, some inspired mercantile deals, and who
             knows?”</p>
-         <p n="21">The obligator turned away, and Tresting found himself smiling. It wasn’t a
-            promise, or even an endorsement — for the most part, obligators were more bureaucrats
-            and witnesses than they were priests — but to hear such praise from one of the Lord
-            Ruler’s own servants. . . . Tresting knew that some nobility considered the obligators
-            to be unsettling — some men even considered them a bother — but at that moment, Testing
+         <p n="21">The <roleName key="obligator">obligator</roleName> turned away, and <persName>Tresting</persName> found himself smiling. It wasn’t a
+            promise, or even an endorsement — for the most part, <roleName key="obligator">obligators</roleName> were more bureaucrats
+            and witnesses than they were priests — but to hear such praise from one of the <persName key="Lord Ruler">Lord
+            Ruler</persName>’s own servants. . . . <persName>Tresting</persName> knew that some nobility considered the <roleName key="obligator">obligators</roleName>
+            to be unsettling — some men even considered them a bother — but at that moment, <persName>Tresting</persName>
             could have kissed his distinguished guest.</p>
-         <p n="22">Tresting turned back toward the skaa, who worked quietly beneath the bloody sun
-            and the lazy flakes of ash. Tresting had always been a country nobleman, living on his
-            plantation, dreaming of perhaps moving into Luthadel itself. He had heard of the balls
+         <p n="22"><persName>Tresting</persName> turned back toward the skaa, who worked quietly beneath the bloody sun
+            and the lazy flakes of ash. <persName>Tresting</persName> had always been a country nobleman, living on his
+            plantation, dreaming of perhaps moving into <placeName>Luthadel</placeName> itself. He had heard of the balls
             and the parties, the glamour and the intrigue, and it excited him to no end.</p>
          <p n="23">I’ll have to celebrate tonight, he thought. There was that young girl in the
             fourteenth hovel that he’d been watching for some time. . . .</p>
-         <p n="24">He smiled again. A few more years of work, the obligator had said. But, could
-            Tresting perhaps speed that up, if he worked a little harder? His skaa population had
+         <p n="24">He smiled again. A few more years of work, the <roleName key="obligator">obligator</roleName> had said. But, could
+            <persName>Tresting</persName> perhaps speed that up, if he worked a little harder? His skaa population had
             been growing lately. Perhaps if he pushed them a bit more, he could bring in an extra
-            harvest this summer, fulfill his contract with Lord Venture in extra measure.</p>
-         <p n="25">Tresting nodded as he watched the crowd of lazy skaa, some working with their
+            harvest this summer, fulfill his contract with <roleName>Lord</roleName> <persName key="Straff Venture">Venture</persName> in extra measure.</p>
+         <p n="25"><persName>Tresting</persName> nodded as he watched the crowd of lazy skaa, some working with their
             hoes, others on hands and knees, pushing the ash away from the fledgling crops. They
             didn’t complain. They didn’t hope. They barely dared think. That was the way it should
             be, for they were skaa. They were—</p>
-         <p n="26">Tresting froze as <ref target="https://coppermind.net/wiki/Kelsier">one of the
-               skaa</ref><note place="bottom">This is not one of Tresting's skaa, but a man named
-               Kelsier.</note> looked up. The man met Tresting’s eyes, a spark — no, a fire — of
-            defiance showing in his expression. Tresting had never seen anything like it, not in the
-            face of a skaa. Tresting stepped backward reflexively, a chill running through him as
+         <p n="26"><persName>Tresting</persName> froze as <rs type="person" key="Kelsier"><ref target="https://coppermind.net/wiki/Kelsier">one of the
+               skaa</ref></rs><note place="bottom">This is not one of Tresting's skaa, but a man named
+               Kelsier.</note> looked up. The man met <persName>Tresting</persName>’s eyes, a spark — no, a fire — of
+            defiance showing in his expression. <persName>Tresting</persName> had never seen anything like it, not in the
+            face of a skaa. <persName>Tresting</persName> stepped backward reflexively, a chill running through him as
             the strange, straight-backed skaa held his eyes.</p>
          <p n="27">And smiled.</p>
-         <p n="28">Tresting looked away. “<seg ana="name">Kurdon</seg>!” he snapped.</p>
+         <p n="28"><persName>Tresting</persName> looked away. “<persName>Kurdon</persName>!” he snapped.</p>
          <p n="29">The burly taskmaster rushed up the incline. “Yes, my lord?”</p>
-         <p n="30">Tresting turned, pointing at. . . .</p>
+         <p n="30"><persName>Tresting</persName> turned, pointing at. . . .</p>
          <p n="31">He frowned. Where had that skaa been standing? Working with their heads bowed,
-            bodies stained by soot and sweat, they were so hard to tell apart. Tresting paused,
+            bodies stained by soot and sweat, they were so hard to tell apart. <persName>Tresting</persName> paused,
             searching. He thought he knew the place . . . an empty spot, where nobody now stood.</p>
          <p n="32">But, no. That couldn’t be it. The man couldn’t have disappeared from the group so
             quickly. Where would he have gone? He must be in there, somewhere, working with his head
             now properly bowed. Still, his moment of apparent defiance was inexcusable.</p>
-         <p n="33">“My lord?” Kurdon asked again.</p>
-         <p n="34">The obligator stood at the side, watching curiously. It would not be wise to let
+         <p n="33">“My lord?” <persName>Kurdon</persName> asked again.</p>
+         <p n="34">The <roleName key="obligator">obligator</roleName> stood at the side, watching curiously. It would not be wise to let
             the man know that one of the skaa had acted so brazenly.</p>
-         <p n="35">“Work the skaa in that southern section a little harder,” Tresting ordered,
+         <p n="35">“Work the skaa in that southern section a little harder,” <persName>Tresting</persName> ordered,
             pointing. “I see them being sluggish, even for skaa. Beat a few of them.”</p>
-         <p n="36">Kurdon shrugged, but nodded. It wasn’t much of a reason for a beating — but,
+         <p n="36"><persName>Kurdon</persName> shrugged, but nodded. It wasn’t much of a reason for a beating — but,
             then, he didn’t need much of a reason to give the workers a beating.</p>
          <p n="37">They were, after all, only skaa.</p>
       </body>

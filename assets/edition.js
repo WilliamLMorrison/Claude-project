@@ -4,7 +4,16 @@
 
   const TEI = "http://www.tei-c.org/ns/1.0";
   const $ = (id) => document.getElementById(id);
-  const LABELS = { name: "Names", title: "Titles", place: "Places" };
+  const LABELS = { name: "Names", title: "Titles", place: "Places", org: "Organizations" };
+  const TYPES = { persName: "name", roleName: "title", placeName: "place", orgName: "org" };
+
+  function entityType(node) {
+    const n = node.localName;
+    if (TYPES[n]) return TYPES[n];
+    if (n === "rs") return { person: "name", place: "place", org: "org" }[node.getAttribute("type")] || null;
+    if (n === "seg") return node.getAttribute("ana") || null;
+    return null;
+  }
 
   const notes = [];          // { n, html, refId }
   const terms = {};          // type -> Map(key -> { label, ids: [] })
@@ -104,16 +113,23 @@
         }
         return kids(el);
       }
+      case "persName":
+      case "roleName":
+      case "placeName":
+      case "orgName":
+      case "rs":
       case "seg": {
-        const ana = node.getAttribute("ana") || "other";
+        const type = entityType(node);
+        if (!type) return kids(document.createElement("span"));
         const el = document.createElement("span");
-        el.className = "ent ent-" + ana;
+        el.className = "ent ent-" + type;
         el.id = "t-" + (++entCount);
-        const label = text(node);
-        if (!terms[ana]) terms[ana] = new Map();
-        const key = label.toLowerCase();
-        if (!terms[ana].has(key)) terms[ana].set(key, { label, ids: [] });
-        terms[ana].get(key).ids.push(el.id);
+        // @key groups variant forms (e.g. "obligators", "Inquisitor") under one index entry.
+        const label = node.getAttribute("key") || text(node);
+        if (!terms[type]) terms[type] = new Map();
+        const k = label.toLowerCase();
+        if (!terms[type].has(k)) terms[type].set(k, { label, ids: [] });
+        terms[type].get(k).ids.push(el.id);
         return kids(el);
       }
       case "ref": {

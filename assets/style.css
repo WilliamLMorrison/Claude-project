@@ -9,6 +9,7 @@
   --name-bg: #f3dcc4;  --name-ink: #7a3a10;
   --title-bg: #dde4f2; --title-ink: #2c4a85;
   --place-bg: #d9eadb; --place-ink: #2b6436;
+  --org-bg: #ecdcef;   --org-ink: #6a2f78;
   --flash: #ffe9a8;
   --serif: "Literata", Georgia, serif;
   --sans: "Inter", system-ui, sans-serif;
@@ -21,6 +22,7 @@
     --name-bg: #4a3020;  --name-ink: #f5c9a3;
     --title-bg: #263552; --title-ink: #b8cbf2;
     --place-bg: #23402a; --place-ink: #b4dfbc;
+    --org-bg: #44284c;   --org-ink: #e2bdea;
     --flash: #5a4a1a;
     color-scheme: dark;
   }
@@ -31,6 +33,7 @@
   --name-bg: #4a3020;  --name-ink: #f5c9a3;
   --title-bg: #263552; --title-ink: #b8cbf2;
   --place-bg: #23402a; --place-ink: #b4dfbc;
+  --org-bg: #44284c;   --org-ink: #e2bdea;
   --flash: #5a4a1a;
   color-scheme: dark;
 }
@@ -151,9 +154,11 @@ article {
 .ent-name  { background: var(--name-bg);  color: var(--name-ink); }
 .ent-title { background: var(--title-bg); color: var(--title-ink); }
 .ent-place { background: var(--place-bg); color: var(--place-ink); }
+.ent-org   { background: var(--org-bg);   color: var(--org-ink); }
 .off-name  .ent.ent-name,
 .off-title .ent.ent-title,
-.off-place .ent.ent-place { background: none; color: inherit; padding: 0; }
+.off-place .ent.ent-place,
+.off-org   .ent.ent-org { background: none; color: inherit; padding: 0; }
 .ent a { color: inherit; }
 
 article a.ext { text-decoration-thickness: 1px; text-underline-offset: 2px; }
