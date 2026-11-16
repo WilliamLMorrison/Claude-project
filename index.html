@@ -3,28 +3,88 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Claude Project</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      max-width: 40rem;
-      margin: 3rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
-      color: #222;
-      background: #fafafa;
-    }
-    h1 { margin-bottom: 0.25rem; }
-    a { color: #0b5fff; }
-  </style>
+  <title>Mistborn Digital Edition</title>
+  <meta name="description" content="An annotated TEI digital edition of the prologue excerpt from Mistborn by Brandon Sanderson.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <h1>Claude Project</h1>
-  <p>Welcome to my first site.</p>
+  <a class="skip" href="#text">Skip to text</a>
 
-  <h2>Files</h2>
-  <ul>
-    <li><a href="Mistborn.xml">Mistborn.xml</a> — a TEI-encoded excerpt of <em>Mistborn</em> by Brandon Sanderson</li>
-  </ul>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="eyebrow">A TEI digital edition</p>
+      <h1 id="doc-title">Mistborn</h1>
+      <p class="byline" id="doc-byline">Loading…</p>
+      <dl class="stats" id="stats" aria-label="Edition statistics"></dl>
+    </div>
+  </header>
+
+  <div class="wrap layout">
+    <aside class="sidebar" aria-label="Reading tools">
+      <section class="panel">
+        <h2>Highlight</h2>
+        <div class="toggles" id="toggles">
+          <label class="toggle"><input type="checkbox" value="name" checked> <span class="swatch ent-name">Names</span></label>
+          <label class="toggle"><input type="checkbox" value="title" checked> <span class="swatch ent-title">Titles</span></label>
+          <label class="toggle"><input type="checkbox" value="place" checked> <span class="swatch ent-place">Places</span></label>
+        </div>
+        <label class="toggle"><input type="checkbox" id="toggle-pnum" checked> Paragraph numbers</label>
+      </section>
+
+      <details class="panel" open>
+        <summary><h2>Index of tagged terms</h2></summary>
+        <div id="index"></div>
+      </details>
+
+      <details class="panel">
+        <summary><h2>Further reading</h2></summary>
+        <ul class="links" id="links"></ul>
+      </details>
+
+      <p class="panel source-link">
+        <a href="Mistborn.xml">View the source XML</a>
+      </p>
+    </aside>
+
+    <main id="text" class="text" tabindex="-1">
+      <noscript>
+        <p>This edition needs JavaScript to render. You can still read the
+        <a href="Mistborn.xml">encoded source XML</a>.</p>
+      </noscript>
+      <p class="status" id="status">Loading text…</p>
+      <article id="body"></article>
+
+      <section class="notes" aria-labelledby="notes-h" hidden>
+        <h2 id="notes-h">Notes</h2>
+        <ol id="notes"></ol>
+      </section>
+
+      <section class="about" aria-labelledby="about-h">
+        <h2 id="about-h">About this edition</h2>
+        <p>This page reads <a href="Mistborn.xml"><code>Mistborn.xml</code></a>, a hand-encoded
+        TEI (Text Encoding Initiative) file, and renders it in the browser. Nothing in the text
+        is retyped for the web, so changes to the XML show up here on the next load.</p>
+        <ul>
+          <li><code>&lt;p n="…"&gt;</code> becomes a numbered paragraph you can link to
+          (for example <a href="#p-26">#p-26</a>).</li>
+          <li><code>&lt;seg ana="name|title|place"&gt;</code> becomes a highlighted term, collected
+          in the index.</li>
+          <li><code>&lt;note&gt;</code> becomes a numbered footnote. Click its number to read it in place.</li>
+          <li><code>&lt;ref target="…"&gt;</code> becomes a link to the
+          <a href="https://coppermind.net/">Coppermind</a> wiki.</li>
+        </ul>
+        <p class="fineprint">The text is an excerpt from <cite>Mistborn: The Final Empire</cite>
+        © Brandon Sanderson, published by Tor Books. It's reproduced here for a class
+        assignment. The annotations and encoding are by William Morrison.</p>
+      </section>
+    </main>
+  </div>
+
+  <div class="popover" id="popover" role="tooltip" hidden></div>
+
+  <script src="assets/edition.js"></script>
 </body>
 </html>
